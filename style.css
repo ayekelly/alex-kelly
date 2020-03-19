@@ -1,0 +1,24 @@
+/* RESET STYLES */
+*{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box !important;} /* Prevent width from being impacted by padding or border */
+html{line-height:1.15; -webkit-text-size-adjust:100%;} /* Correct line height across browsers */
+body{margin:0; padding:0; background:#ffffff;} /* Remove margin and padding in all browsers */
+p{margin:0; padding:0;} /* Remove margin and padding from paragraphs in all browsers */
+h1, h2, h3, h4, h5, h6{display:block; margin:0; padding:0;}
+table{border-collapse:collapse;} /* Prevent double borders */
+small{font-size:80%;} /* Add the correct font size in all browsers */
+sub, sup{font-size:75%; line-height:0; position: relative; vertical-align: baseline;}
+sub {bottom:-.25em;}
+sup {top:-.5em;} /* Prevent \`sub\` and \`sup\` elements from affecting the line height in all browsers */
+div, p, a{word-break:break-word;} /* Prevent long words from breaking columns */
+#root{display: flex; align-items: center; flex-flow: column;}
+
+/* BROWSER-SPECIFIC STYLES */
+img, a img{border-style:none; height:auto;} /* Remove the border on images inside links in IE 10 */
+hr{box-sizing:content-box; height:0; overflow:visible;} /* Add the correct box sizing in Firefox and show the overflow in Edge and IE */
+input, button, select, optgroup, textarea{margin:0; font-family:inherit; font-size:100%; line-height:inherit;} /* Remove the margin in Firefox and Safari, update font styles in all browsers */
+button, input{overflow:visible;} /* Show the overflow in Edge */
+button, select{text-transform: none;} /* Remove the inheritance of text transform in Firefox */
+a{background-color: transparent;} /* Remove the gray background on active links in IE 10 */
+b, strong{font-weight: bolder;} /* Add the correct font weight in Chrome, Edge, and Safari */
+
+h1{font-family:'Courier New', monospace;}
