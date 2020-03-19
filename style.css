@@ -17,8 +17,40 @@ img, a img{border-style:none; height:auto;} /* Remove the border on images insid
 hr{box-sizing:content-box; height:0; overflow:visible;} /* Add the correct box sizing in Firefox and show the overflow in Edge and IE */
 input, button, select, optgroup, textarea{margin:0; font-family:inherit; font-size:100%; line-height:inherit;} /* Remove the margin in Firefox and Safari, update font styles in all browsers */
 button, input{overflow:visible;} /* Show the overflow in Edge */
-button, select{text-transform: none;} /* Remove the inheritance of text transform in Firefox */
-a{background-color: transparent;} /* Remove the gray background on active links in IE 10 */
-b, strong{font-weight: bolder;} /* Add the correct font weight in Chrome, Edge, and Safari */
+button, select{text-transform:none;} /* Remove the inheritance of text transform in Firefox */
+a{background-color:transparent;} /* Remove the gray background on active links in IE 10 */
+b, strong{font-weight:bolder;} /* Add the correct font weight in Chrome, Edge, and Safari */
 
-h1{font-family:'Courier New', monospace;}
+/* STRUCTURAL STYLES */
+.wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 60px;
+}
+
+/* DESIGNY STYLES */
+*{
+    font-family: 'Courier New', monospace;
+}
+p{
+    font-size: 20px; 
+    padding-bottom: 40px;
+}
+p.small{
+    font-size: 10px;
+}
+a{
+    color:#4F4F58;
+}
+
+.socialContainer{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 40%;
+}
+.socialIcons{
+    height: 60px;
+    width: auto; 
+}
