@@ -29,19 +29,12 @@ b, strong{font-weight:bolder;} /* Add the correct font weight in Chrome, Edge, a
 }
 
 /* DESIGNY STYLES */
-*{
-    font-family: 'Courier New', monospace;
-}
-p{
-    font-size: 20px; 
-    padding-bottom: 40px;
-}
-p.small{
-    font-size: 8px;
-}
-a{
-    color:#4F4F58;
-}
+*{font-family: 'Courier New', monospace;}
+p{font-size: 20px; padding-bottom: 40px;}
+.small{font-size: 16px;}
+.smaller{font-size: 8px;}
+.strong{font-weight: bold;}
+a{color:#4F4F58;}
 
 .socialContainer{
     display: grid; 
